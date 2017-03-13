@@ -66,7 +66,7 @@ git commit
 
 To run unittets, enter each directory in `controllers/`
 ```console
-$ cd $GOPATH/src/k8s.io/ingress/controllers/gce
+$ cd $GOPATH/src/github.com/mrahbar/ingress/controllers/gce
 $ go test ./...
 ```
 

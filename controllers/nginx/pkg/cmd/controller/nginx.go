@@ -34,12 +34,12 @@ import (
 
 	"k8s.io/kubernetes/pkg/api"
 
-	"k8s.io/ingress/controllers/nginx/pkg/config"
-	ngx_template "k8s.io/ingress/controllers/nginx/pkg/template"
-	"k8s.io/ingress/controllers/nginx/pkg/version"
-	"k8s.io/ingress/core/pkg/ingress"
-	"k8s.io/ingress/core/pkg/ingress/defaults"
-	"k8s.io/ingress/core/pkg/net/ssl"
+	"github.com/mrahbar/ingress/controllers/nginx/pkg/config"
+	ngx_template "github.com/mrahbar/ingress/controllers/nginx/pkg/template"
+	"github.com/mrahbar/ingress/controllers/nginx/pkg/version"
+	"github.com/mrahbar/ingress/core/pkg/ingress"
+	"github.com/mrahbar/ingress/core/pkg/ingress/defaults"
+	"github.com/mrahbar/ingress/core/pkg/net/ssl"
 )
 
 const (

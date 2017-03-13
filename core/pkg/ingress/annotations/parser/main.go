@@ -21,7 +21,7 @@ import (
 
 	"k8s.io/kubernetes/pkg/apis/extensions"
 
-	"k8s.io/ingress/core/pkg/ingress/errors"
+	"github.com/mrahbar/ingress/core/pkg/ingress/errors"
 )
 
 // IngressAnnotation has a method to parse annotations located in Ingress

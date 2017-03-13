@@ -33,7 +33,7 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/ingress/core/pkg/ingress"
+	"github.com/mrahbar/ingress/core/pkg/ingress"
 )
 
 // AddOrUpdateCertAndKey creates a .pem file wth the cert and the key with the specified name

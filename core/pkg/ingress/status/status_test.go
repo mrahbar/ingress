@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	cache_store "k8s.io/ingress/core/pkg/cache"
-	"k8s.io/ingress/core/pkg/k8s"
-	"k8s.io/ingress/core/pkg/task"
+	cache_store "github.com/mrahbar/ingress/core/pkg/cache"
+	"github.com/mrahbar/ingress/core/pkg/k8s"
+	"github.com/mrahbar/ingress/core/pkg/task"
 	"k8s.io/kubernetes/pkg/api"
 	"k8s.io/kubernetes/pkg/apis/extensions"
 	"k8s.io/kubernetes/pkg/client/cache"

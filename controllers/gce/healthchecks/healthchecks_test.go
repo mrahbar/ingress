@@ -19,7 +19,7 @@ package healthchecks
 import (
 	"testing"
 
-	"k8s.io/ingress/controllers/gce/utils"
+	"github.com/mrahbar/ingress/controllers/gce/utils"
 )
 
 func TestFakeHealthCheckActions(t *testing.T) {

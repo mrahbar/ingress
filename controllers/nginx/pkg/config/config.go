@@ -22,8 +22,8 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/ingress/core/pkg/ingress"
-	"k8s.io/ingress/core/pkg/ingress/defaults"
+	"github.com/mrahbar/ingress/core/pkg/ingress"
+	"github.com/mrahbar/ingress/core/pkg/ingress/defaults"
 )
 
 const (

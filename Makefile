@@ -21,7 +21,7 @@ ifndef COMMIT
 endif
 
 # base package. It contains the common and backends code
-PKG := "k8s.io/ingress"
+PKG := "github.com/mrahbar/ingress"
 
 GO_LIST_FILES=$(shell go list ${PKG}/... | grep -v vendor | grep -v -e "test/e2e")
 

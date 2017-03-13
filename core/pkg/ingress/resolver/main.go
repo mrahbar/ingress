@@ -19,7 +19,7 @@ package resolver
 import (
 	"k8s.io/kubernetes/pkg/api"
 
-	"k8s.io/ingress/core/pkg/ingress/defaults"
+	"github.com/mrahbar/ingress/core/pkg/ingress/defaults"
 )
 
 // DefaultBackend has a method that returns the backend

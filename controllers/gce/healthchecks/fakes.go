@@ -20,7 +20,7 @@ import (
 	"fmt"
 
 	compute "google.golang.org/api/compute/v1"
-	"k8s.io/ingress/controllers/gce/utils"
+	"github.com/mrahbar/ingress/controllers/gce/utils"
 )
 
 // NewFakeHealthChecks returns a new FakeHealthChecks.

@@ -8,10 +8,10 @@ import (
 
 	"github.com/spf13/pflag"
 
-	nginxconfig "k8s.io/ingress/controllers/nginx/pkg/config"
-	"k8s.io/ingress/core/pkg/ingress"
-	"k8s.io/ingress/core/pkg/ingress/controller"
-	"k8s.io/ingress/core/pkg/ingress/defaults"
+	nginxconfig "github.com/mrahbar/ingress/controllers/nginx/pkg/config"
+	"github.com/mrahbar/ingress/core/pkg/ingress"
+	"github.com/mrahbar/ingress/core/pkg/ingress/controller"
+	"github.com/mrahbar/ingress/core/pkg/ingress/defaults"
 	"k8s.io/kubernetes/pkg/api"
 )
 

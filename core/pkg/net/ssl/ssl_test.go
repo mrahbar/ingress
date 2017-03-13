@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/ingress/core/pkg/ingress"
+	"github.com/mrahbar/ingress/core/pkg/ingress"
 )
 
 func TestAddOrUpdateCertAndKey(t *testing.T) {

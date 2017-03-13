@@ -22,8 +22,8 @@ import (
 
 	"k8s.io/kubernetes/pkg/apis/extensions"
 
-	"k8s.io/ingress/core/pkg/ingress/annotations/parser"
-	ing_errors "k8s.io/ingress/core/pkg/ingress/errors"
+	"github.com/mrahbar/ingress/core/pkg/ingress/annotations/parser"
+	ing_errors "github.com/mrahbar/ingress/core/pkg/ingress/errors"
 )
 
 const (

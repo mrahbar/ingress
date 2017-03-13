@@ -30,10 +30,10 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/ingress/controllers/nginx/pkg/config"
-	"k8s.io/ingress/core/pkg/ingress"
-	ing_net "k8s.io/ingress/core/pkg/net"
-	"k8s.io/ingress/core/pkg/watch"
+	"github.com/mrahbar/ingress/controllers/nginx/pkg/config"
+	"github.com/mrahbar/ingress/core/pkg/ingress"
+	ing_net "github.com/mrahbar/ingress/core/pkg/net"
+	"github.com/mrahbar/ingress/core/pkg/watch"
 )
 
 const (

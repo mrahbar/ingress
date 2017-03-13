@@ -20,8 +20,8 @@ import (
 	clientcmdapi "k8s.io/kubernetes/pkg/client/unversioned/clientcmd/api"
 	"k8s.io/kubernetes/pkg/healthz"
 
-	"k8s.io/ingress/core/pkg/ingress"
-	"k8s.io/ingress/core/pkg/k8s"
+	"github.com/mrahbar/ingress/core/pkg/ingress"
+	"github.com/mrahbar/ingress/core/pkg/k8s"
 )
 
 // NewIngressController returns a configured Ingress controller
@@ -229,12 +229,12 @@ func createApiserverClient(apiserverHost string, kubeConfig string) (*client.Cli
 
 	glog.Infof("Creating API server client for %s", cfg.Host)
 
-	client, err := client.NewForConfig(cfg)
+	c, err := client.NewForConfig(cfg)
 
 	if err != nil {
 		return nil, err
 	}
-	return client, nil
+	return c, nil
 }
 
 /**

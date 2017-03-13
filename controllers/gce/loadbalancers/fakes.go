@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	compute "google.golang.org/api/compute/v1"
-	"k8s.io/ingress/controllers/gce/utils"
+	"github.com/mrahbar/ingress/controllers/gce/utils"
 	"k8s.io/kubernetes/pkg/util/sets"
 )
 

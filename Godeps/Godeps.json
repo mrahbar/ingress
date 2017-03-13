@@ -1,5 +1,5 @@
 {
-	"ImportPath": "k8s.io/ingress",
+	"ImportPath": "github.com/mrahbar/ingress",
 	"GoVersion": "go1.7",
 	"GodepVersion": "v74",
 	"Packages": [

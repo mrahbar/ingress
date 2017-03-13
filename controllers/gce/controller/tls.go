@@ -19,7 +19,7 @@ package controller
 import (
 	"fmt"
 
-	"k8s.io/ingress/controllers/gce/loadbalancers"
+	"github.com/mrahbar/ingress/controllers/gce/loadbalancers"
 
 	"k8s.io/kubernetes/pkg/api"
 	"k8s.io/kubernetes/pkg/apis/extensions"

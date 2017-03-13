@@ -24,7 +24,7 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/ingress/core/pkg/ingress/controller"
+	"github.com/mrahbar/ingress/core/pkg/ingress/controller"
 )
 
 func main() {

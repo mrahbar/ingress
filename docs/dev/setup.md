@@ -99,7 +99,7 @@ You can deploy an ingress controller on the cluster setup in the previous step
 If the controller you're interested in using supports a "dry-run" flag, you can
 run it on any machine that has `kubectl` access to a remote cluster. Eg:
 ```console
-$ cd $GOPATH/k8s.io/ingress/controllers/gce
+$ cd $GOPATH/github.com/mrahbar/ingress/controllers/gce
 $ glbc --help
       --running-in-cluster               Optional, if this controller is running in a kubernetes cluster, use the
 		 pod secrets for creating a Kubernetes client. (default true)

@@ -22,7 +22,7 @@ import (
 	"github.com/golang/glog"
 	"github.com/imdario/mergo"
 
-	"k8s.io/ingress/core/pkg/ingress"
+	"github.com/mrahbar/ingress/core/pkg/ingress"
 )
 
 // DeniedKeyName name of the key that contains the reason to deny a location

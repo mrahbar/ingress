@@ -24,15 +24,15 @@ import (
 	"k8s.io/kubernetes/pkg/healthz"
 	"k8s.io/kubernetes/pkg/util/intstr"
 
-	cache_store "k8s.io/ingress/core/pkg/cache"
-	"k8s.io/ingress/core/pkg/ingress/annotations/auth"
-	"k8s.io/ingress/core/pkg/ingress/annotations/authreq"
-	"k8s.io/ingress/core/pkg/ingress/annotations/authtls"
-	"k8s.io/ingress/core/pkg/ingress/annotations/ipwhitelist"
-	"k8s.io/ingress/core/pkg/ingress/annotations/proxy"
-	"k8s.io/ingress/core/pkg/ingress/annotations/ratelimit"
-	"k8s.io/ingress/core/pkg/ingress/annotations/rewrite"
-	"k8s.io/ingress/core/pkg/ingress/defaults"
+	cache_store "github.com/mrahbar/ingress/core/pkg/cache"
+	"github.com/mrahbar/ingress/core/pkg/ingress/annotations/auth"
+	"github.com/mrahbar/ingress/core/pkg/ingress/annotations/authreq"
+	"github.com/mrahbar/ingress/core/pkg/ingress/annotations/authtls"
+	"github.com/mrahbar/ingress/core/pkg/ingress/annotations/ipwhitelist"
+	"github.com/mrahbar/ingress/core/pkg/ingress/annotations/proxy"
+	"github.com/mrahbar/ingress/core/pkg/ingress/annotations/ratelimit"
+	"github.com/mrahbar/ingress/core/pkg/ingress/annotations/rewrite"
+	"github.com/mrahbar/ingress/core/pkg/ingress/defaults"
 )
 
 var (
@@ -58,7 +58,7 @@ type Controller interface {
 	// If reloading fails, there should be not change in the running configuration or
 	// the given byte array.
 	Reload(data []byte) ([]byte, bool, error)
-	// OnUpdate callback invoked from the sync queue https://k8s.io/ingress/core/blob/master/pkg/ingress/controller/controller.go#L387
+	// OnUpdate callback invoked from the sync queue https://github.com/mrahbar/ingress/core/blob/master/pkg/ingress/controller/controller.go#L387
 	// when an update occurs. This is executed frequently because Ingress
 	// controllers watches changes in:
 	// - Ingresses: main work
@@ -77,7 +77,7 @@ type Controller interface {
 	// information about all the upstreams (service endpoints ) "virtual"
 	// servers (FQDN) and all the locations inside each server. Each
 	// location contains information about all the annotations were configured
-	// https://k8s.io/ingress/core/blob/master/pkg/ingress/types.go#L83
+	// https://github.com/mrahbar/ingress/core/blob/master/pkg/ingress/types.go#L83
 	// The backend returns the contents of the configuration file or an error
 	// with the reason why was not possible to generate the file.
 	//

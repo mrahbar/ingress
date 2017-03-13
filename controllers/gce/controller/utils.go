@@ -23,8 +23,8 @@ import (
 	"time"
 
 	compute "google.golang.org/api/compute/v1"
-	"k8s.io/ingress/controllers/gce/loadbalancers"
-	"k8s.io/ingress/controllers/gce/utils"
+	"github.com/mrahbar/ingress/controllers/gce/loadbalancers"
+	"github.com/mrahbar/ingress/controllers/gce/utils"
 	"k8s.io/kubernetes/pkg/api"
 	"k8s.io/kubernetes/pkg/apis/extensions"
 	"k8s.io/kubernetes/pkg/client/cache"

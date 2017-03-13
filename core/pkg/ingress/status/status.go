@@ -31,11 +31,11 @@ import (
 	"k8s.io/kubernetes/pkg/labels"
 	"k8s.io/kubernetes/pkg/util/wait"
 
-	cache_store "k8s.io/ingress/core/pkg/cache"
-	"k8s.io/ingress/core/pkg/ingress/annotations/class"
-	"k8s.io/ingress/core/pkg/k8s"
-	"k8s.io/ingress/core/pkg/strings"
-	"k8s.io/ingress/core/pkg/task"
+	cache_store "github.com/mrahbar/ingress/core/pkg/cache"
+	"github.com/mrahbar/ingress/core/pkg/ingress/annotations/class"
+	"github.com/mrahbar/ingress/core/pkg/k8s"
+	"github.com/mrahbar/ingress/core/pkg/strings"
+	"github.com/mrahbar/ingress/core/pkg/task"
 )
 
 const (

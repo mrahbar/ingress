@@ -27,9 +27,9 @@ import (
 	"k8s.io/kubernetes/pkg/apis/extensions"
 	"k8s.io/kubernetes/pkg/client/cache"
 
-	"k8s.io/ingress/core/pkg/ingress"
-	"k8s.io/ingress/core/pkg/ingress/annotations/parser"
-	ssl "k8s.io/ingress/core/pkg/net/ssl"
+	"github.com/mrahbar/ingress/core/pkg/ingress"
+	"github.com/mrahbar/ingress/core/pkg/ingress/annotations/parser"
+	ssl "github.com/mrahbar/ingress/core/pkg/net/ssl"
 )
 
 // syncSecret keeps in sync Secrets used by Ingress rules with the files on

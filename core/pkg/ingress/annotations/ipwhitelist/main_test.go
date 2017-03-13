@@ -24,7 +24,7 @@ import (
 	"k8s.io/kubernetes/pkg/apis/extensions"
 	"k8s.io/kubernetes/pkg/util/intstr"
 
-	"k8s.io/ingress/core/pkg/ingress/defaults"
+	"github.com/mrahbar/ingress/core/pkg/ingress/defaults"
 )
 
 func buildIngress() *extensions.Ingress {
